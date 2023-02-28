@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</head>
+
+<body>
+    <h1 id="titulo">CURRICULUM VITAE</h1>
+
+    <p>* Arrastrando el cursor sobre mis conocimientos, podrás ver el porcentaje que considero que tengo de los mismos.</p>
+
+    <br>
+    <section id="cv_izq">
+
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" id="imagen">
+
+        <p id="nombre">KENT KELLEY</p>
+        
+        <p id="profesion">Desarrollador web</p>
+        
+        <ul class="datos" style="list-style-type: none;">
+            <li class="datos">
+                <br class="datos">
+                <i id="mail" class="fa-solid fa-envelope"></i>
+                kentkelley@example.com
+            </li>
+            <li class="datos">
+                <i id="phone" class="fa-solid fa-phone"></i>
+                (997) 928-3166
+            </li>
+            <li class="datos">
+                <i id="globe" class="fa.sharp fa-solid fa-globe"></i>
+                kentkelley.com
+            </li>
+            <li class="datos">
+                <i id="ig" class="fa-brands fa-square-instagram"></i>
+                @kent_kelley
+            </li>
+            <li class="datos">
+                <i id="fb" class="fa-brands fa-facebook"></i>
+                Kent Kelley
+            </li>
+            <li class="datos">
+                <i id="map" class="fa-solid fa-location-dot"></i>
+                Yrigoyen 2692, CABA
+            </li>
+        </ul>
+        
+        <h2 id="tituloHabilidades">CONOCIMIENTOS</h2>
+        <ul id="habilidades">
+            <li id="python">
+                Python
+            </li>
+            <li id="html5" onclick="cambiarHtml5">
+                HTML 5
+            </li>
+            <li id="css3" onclick="cambiarCss3">
+                CSS 3
+            </li>
+            <li id="javascript" onclick="cambiarJs">
+                JavaScript
+            </li>
+            <li id="reactjs" onclick="cambiarReact">
+                ReactJS
+            </li>
+            <li id="php" onclick="cambiarPhp">
+                PHP
+            </li>
+            <li id="mysql" onclick="cambiarMysql">
+                MySQL
+            </li>
+        </ul>
+    </section>
+
+    <section id="cv_der">
+        <h1 id="tituloSobremi">SOBRE MI</h1>
+        <p id="sobremi">Soy Kent Kelley, un desarrollador web que ha nacido y estudiado en Estados Unidos. Actualmente estoy viviendo y trabajando en Argentina. He colaborado con la industria tecnológica desde el año 2016 hasta el presente. Lo que más me gusta de la programación es trabajar en equipo y construir sitios web para empresas.</p>
+
+        <h2 id="tituloExperiencia">EXPERIENCIA</h2>
+        <ul class="experiencia">
+            <li class="experiencia">
+                (2016 - 2020) Coarco S.A.
+                <p class="experiencia">Desarrollador Front-end</p>
+                <p class="experiencia">Junto a un equipo de trabajo desarrollamos la página principal de la empresa a la cual le dimos soporte y actualización durante 4 años. Adicionalmente colaboré en el desarrollo de una aplicación para teléfonos móviles.</p>
+            </li>
+            <li class="experiencia">
+                (2020 - 2023) Telecentro
+                <p class="experiencia">Desarrollador Front-end</p>
+                <p class="experiencia">Ayudé a mejorar la página web de la empresa. Además colaboré en el desarrollo de una aplicación interna de chat entre los empleados de la compañía.</p>
+            </li>
+        </ul>
+
+
+        <h2 id="tituloEstudios">EDUCACIÓN</h2>
+        <ul class="estudios">
+            <li class="estudios">
+                (2002 - 2009) J.C. Harmon High School
+            </li>
+            <li class="estudios">
+                (2010 - 2015) Keller of Devry University (Software Engineer)
+            </li>
+        </ul>
+
+        <h2 id="tituloLenguajes">IDIOMAS</h2>
+        <ul class="lenguajes">
+            <li class="lenguajes">
+                Inglés avanzado
+            </li>
+            <li class="lenguajes">
+                Español
+            </li>
+        </ul>
+    </section>
+
+    <script src="js/function.js"></script>
+</body>
+</html>
